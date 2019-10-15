@@ -1,6 +1,6 @@
 ## LOADING A FUNCTION FROM A DLL FROM C
     Calling functions from a DLL in a C code? Don't. But it's possible.   
-    I was doing one of the nastiest task ever in the last few weeks: call a function from a DLL written in C++ from native C code.     Here's how to do it with latest MinGW.
+    I was doing one of the nastiest task ever in the last few weeks: call a function from a DLL written in C++ from native C code.           Here's how to do it with latest MinGW.
     The DLL contains a function, named Test, returning an int, and have one single int parameter and - how suprising - returns an int as status.
 
 ### dllhandler.h
